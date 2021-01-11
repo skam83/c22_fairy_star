@@ -26,8 +26,8 @@ function setup() {
 	fairy.scale =0.25;
 
 	star = createSprite(650,30);
-	//star.addImage(starImg);
-	//star.scale = 0.2;
+	star.addImage(starImg);
+	star.scale = 0.2;
 
 	engine = Engine.create();
 	world = engine.world;
